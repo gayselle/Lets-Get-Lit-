@@ -1,0 +1,9 @@
+/* Webfont: QuantaGroteskPro-ExtraBold */@font-face {
+    font-family: 'QuantaGroteskProExtBd';
+    src: url('QuantaGroteskPro-ExtraBold.woff2') format('woff2'), /* Modern Browsers */
+         url('QuantaGroteskPro-ExtraBold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

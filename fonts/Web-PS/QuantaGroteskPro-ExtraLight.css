@@ -1,0 +1,9 @@
+/* Webfont: QuantaGroteskPro-ExtraLight */@font-face {
+    font-family: 'QuantaGroteskProExtLt';
+    src: url('QuantaGroteskPro-ExtraLight.woff2') format('woff2'), /* Modern Browsers */
+         url('QuantaGroteskPro-ExtraLight.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

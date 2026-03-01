@@ -1,0 +1,9 @@
+/* Webfont: QuantaGroteskPro-SemBdIta */@font-face {
+    font-family: 'QuantaGroteskProSemBdIta';
+    src: url('QuantaGroteskPro-SemBdIta.woff2') format('woff2'), /* Modern Browsers */
+         url('QuantaGroteskPro-SemBdIta.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

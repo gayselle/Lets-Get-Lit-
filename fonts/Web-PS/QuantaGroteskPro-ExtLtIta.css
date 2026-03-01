@@ -1,0 +1,9 @@
+/* Webfont: QuantaGroteskPro-ExtLtIta */@font-face {
+    font-family: 'QuantaGroteskProExtLtIta';
+    src: url('QuantaGroteskPro-ExtLtIta.woff2') format('woff2'), /* Modern Browsers */
+         url('QuantaGroteskPro-ExtLtIta.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
