@@ -781,16 +781,20 @@ html {
   .benefit p {font-size: 13px; margin-top: 5px;}
   .benefit:nth-child(1) p, .benefit:nth-child(2) p, .benefit:nth-child(3) p,
   .benefit:nth-child(4) p {margin-top: 0; padding-top: 0;}
+  .benefit:hover {transform: none;}
   .survey-brain { display: none; }
   .survey { grid-template-columns: 1fr; padding: 20px 20px; margin-bottom: 15%; margin-top: 15%;}
   .survey h2 { text-align: center; }
   .survey-text { max-width: 90%; text-align: justify;}
   .steps { padding: 150px 16px; }
   .steps .section-head { margin-top: -20%; margin-bottom: 0;}
-  .steps-cards { gap: 10px; }
-  .step-card { width: 80%; transform: rotate(0deg) translateY(0); padding: 20px 20px 20px 20px; min-height: auto;}
-  .step-card.green { transform: rotate(0deg) translateY(0); }
-  .step-card.yellow { transform: rotate(0deg) translateY(0); }
+  .steps-cards { gap: 10px; transform: none;}
+  .step-card { width: 80%; transform: none; padding: 20px 20px 20px 20px; min-height: auto; transition: none; }
+  .step-card.green { transform: none; }
+  .step-card.yellow { transform: none; }
+  .step-card:hover { transform: none; box-shadow: 0 10px 16px rgba(0,0,0,0.12); }
+  .step-card.green:hover { transform: none; }
+  .step-card.yellow:hover { transform: none; }
   .step-num { font-size: 32px; }
   .step-card h3 { font-size: 18px; }
   .step-card p { font-size: 14px; }
