@@ -54,7 +54,7 @@ html {
   z-index: 5;
 }
 
-.logo { width: 140px; }
+.logo { width: 140px; filter: drop-shadow(0 6px 12px rgba(0,0,0,0.15));}
 
 .email-pill {
   display: inline-flex;
