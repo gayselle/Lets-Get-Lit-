@@ -383,8 +383,8 @@ html {
   margin-bottom: 0;
 }
 
-.benefit-inline-icon.heart-icon { width: 170px; margin-bottom: 0; }
-.benefit-inline-icon.thumbs-icon { width: 150px; margin-bottom: 0; }
+.benefit-inline-icon.heart-icon { width: 160px;}
+.benefit-inline-icon.thumbs-icon { width: 150px; }
 
 .benefit img {
   width: 20%;
