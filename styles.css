@@ -371,9 +371,19 @@ html {
 
 .benefit p {
   font-size: 14px;
+  position: relative;
   line-height: 1.6;
   margin: 0;
 }
+
+.benefit-inline-icon {
+  float: right;
+  height: auto;
+  margin: 0 10px 0px 5px;
+}
+
+.benefit-inline-icon.heart-icon { width: 170px; margin-bottom: 0; }
+.benefit-inline-icon.thumbs-icon { width: 150px; margin-bottom: 0; }
 
 .benefit img {
   width: 20%;
@@ -651,7 +661,7 @@ html {
   .movement-book { display: none; }
   .benefits-book { position: absolute; left: 5px; top: 16px; width: 120px; transform: rotate(5deg); }
   .benefits-brain { display: none; }
-  .heart-benefit { display: none; }
+  .benefit-inline-icon { display: none; }
   .thumb-benefit { display: none; }
   .benefits-flake-1 { position: absolute; left: 0px; bottom: -50px; width: 180px;}
   .benefits-flake-2 { position: absolute; right: -35px; top: 250px; width: 200px; }
