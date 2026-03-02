@@ -378,6 +378,7 @@ html {
 
 .benefit-inline-icon {
   float: right;
+  justify-content: flex-end;
   margin: 0 10px 0px 5px;
 }
 
